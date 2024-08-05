@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+ }
+
+html {
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: right;
+    margin: 0 10px;
+    height: 70px;
+    border-bottom: 1px solid white;
+    padding: 0 30px
+}
+
+
+.nav {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav a {
+
+    color: white;
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+#logo {
+    color: white;
+    width: 1050px;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 50px 50px;
+}
+
